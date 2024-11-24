@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memes app</title>
+</head>
+<body>
+    <div class="setting">
+        <p>Мем</p>
+        <select class="js-memes-select"></select>
+        
+        <p>Подпись сверху</p>
+        <input type="text" class="js-text-top-input">
+
+        <p>Подпись снизу</p>
+        <input type="text" class="js-text-bottom-input">
+    </div>
+
+    <div class="preview">
+        <p class="js-top-text"></p>
+        <p class="js-bottom-text"></p>
+        <img class="js-image">
+    </div>
+    
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="api.js"></script>
+    <script src="controller.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
